@@ -1,0 +1,16 @@
+name: TeleportationAtCost
+version: '${version}'
+main: io.sn.tpatcost.Genesis
+api-version: '1.20'
+
+commands:
+  tpac:
+    description: "Admin command of TeleportationAtCost"
+
+permissions:
+  teleportationatcost.command.reload:
+    description: "Reload configurations"
+    default: op
+  teleportationatcost.use:
+    description: "Access the main feature"
+    default: true

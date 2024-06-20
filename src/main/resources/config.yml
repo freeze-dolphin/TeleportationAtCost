@@ -1,0 +1,16 @@
+use-item-as-cost: ENDER_PEARL
+
+distance-factor: 500
+teleport-delay-in-ticks: 100
+
+costing-least: 1
+costing-most: 32
+
+message:
+  calculation: "<white>你距离目标 <gray>%distance% <white>格, 需要消耗 <yellow>%requirement% <white>颗珍珠"
+  getting-ready: "<yellow>传送将在五秒后开始..."
+  not-enough-items: "<red>你没有足够的末影珍珠来进行传送"
+  success: "" # leave blank to disable it
+  world-changed: "<red>你在准备传送时切换了世界, 传送已取消"
+  moved: "<red>你在准备传送时进行了移动, 传送已取消"
+  damaged: "<red>你在准备传送时受到了伤害, 传送已取消"
